@@ -1,0 +1,67 @@
+/* default styles */
+body {
+    overflow-x: hidden;
+    margin: 0 auto;
+    overscroll-behavior: none;
+}
+
+p {
+    max-width: 75ch;
+}
+
+.class {
+    font-size: calc(1em+1vw);
+}
+
+.class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+::selection {
+    color: #000;
+    background: #fbd404;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+label[for] {
+    cursor: pointer;
+}
+
+label,
+button,
+input,
+select {
+    cursor: pointer;
+}
+
+svg {
+    fill: currentColor;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img,
+video,
+audio {
+    max-width: 100%;
+    height: auto;
+}
+
+a[href ^='tel'] {
+    white-space: nowrap;
+    pointer-events: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* laptop styles */
+/* mobile styles */
